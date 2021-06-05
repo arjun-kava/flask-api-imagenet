@@ -1,7 +1,5 @@
-from keras.models import load_model
 import flask
 from flask import Flask, request, redirect, url_for, send_from_directory, render_template
-import pandas as pd
 import tensorflow as tf
 import keras
 from tensorflow.keras.applications.resnet50 import ResNet50
